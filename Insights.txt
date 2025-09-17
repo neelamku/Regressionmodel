@@ -1,0 +1,9 @@
+- MODELYEAR has no variation → not useful.
+
+- Fuel consumption and CO₂ emissions are strongly correlated (makes sense: burning more fuel → more CO₂).
+
+- Dataset description mentions:
+    75% of cars fall between 11 MPG and 31 MPG fuel efficiency (huge range).
+    Highest value (60 MPG) looks suspiciously high (possible outlier, hybrid/electric vehicle).
+    Engine size and cylinders are also good predictors, but they are indirect (engine size influences fuel consumption → which influences CO₂).
+    A simple linear regression gives a clear relationship, but for better accuracy, multiple regression (using several features) would be ideal.
